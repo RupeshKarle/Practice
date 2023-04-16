@@ -14,4 +14,7 @@ class UserController extends Controller
     public function getData() {
         return User::all();
     }
+    public function testFunction() {
+        return ['test'=> 'test array'];
+    }
 }
